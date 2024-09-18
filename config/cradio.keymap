@@ -64,10 +64,10 @@
 
         Navigation {
             bindings = <
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-                                 &kp SPACE  &kp SPACE    &kp SPACE  &kp SPACE
+&kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)   &kp LG(T)    &kp LS(LG(Z))  &kp K_PASTE    &kp K_COPY  &kp K_CUT  &kp K_UNDO
+&kp LCTRL  &kp LALT   &kp LMETA  &kp LSHIFT  &kp LG(G)    &caps_word     &kp LEFT       &kp DOWN    &kp UP     &kp RIGHT
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(B)    &kp INS        &kp LG(LEFT)   &kp PG_DN   &kp PG_UP  &kp LG(RIGHT)
+                                 &trans      &none        &kp ENTER      &kp BACKSPACE
             >;
         };
 
