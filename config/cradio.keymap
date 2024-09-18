@@ -45,7 +45,7 @@
         };
 
         Layer5 {
-            bindings = <&sl 5>;
+            bindings = <&mo 5>;
             key-positions = <30 33>;
         };
     };
