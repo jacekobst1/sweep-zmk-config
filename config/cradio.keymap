@@ -43,6 +43,11 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <13 16>;
         };
+
+        Layer5 {
+            bindings = <&sl 5>;
+            key-positions = <30 33>;
+        };
     };
 
     keymap {
@@ -95,9 +100,9 @@
 
         FunctionKeys {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans  &trans  &kp C_RESET
+&trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_1  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans  &trans  &trans
                         &trans  &trans    &trans  &trans
             >;
         };
