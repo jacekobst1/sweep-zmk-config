@@ -64,7 +64,7 @@
 
         Navigation {
             bindings = <
-&kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)   &kp LG(T)    &kp LS(LG(Z))  &kp K_PASTE    &kp K_COPY  &kp K_CUT  &kp K_UNDO
+&kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)   &kp LG(T)    &kp LG(LS(Z))  &kp K_PASTE    &kp K_COPY  &kp K_CUT  &kp K_UNDO
 &kp LCTRL  &kp LALT   &kp LMETA  &kp LSHIFT  &kp LG(G)    &caps_word     &kp LEFT       &kp DOWN    &kp UP     &kp RIGHT
 &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(B)    &kp INS        &kp LG(LEFT)   &kp PG_DN   &kp PG_UP  &kp LG(RIGHT)
                                  &trans      &none        &kp ENTER      &kp BACKSPACE
@@ -73,10 +73,10 @@
 
         AppNavigation+Media {
             bindings = <
-&trans     &kp SPACE  &kp SPACE  &kp SPACE  &trans       &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE
-&trans     &trans     &trans     &trans     &trans       &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &trans
-                                 &trans     &trans       &trans     &trans
+&kp LC(LS(LEFT))  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LC(LS(RIGHT))    &none    &kp LG(LA(LEFT))  &none         &none         &kp LG(LA(RIGHT))
+&kp LC(LEFT)      &kp LG(N4)  &kp LG(N5)  &kp LG(N6)  &kp LC(RIGHT)        &none    &kp LG(LS(LBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &kp LG(LS(RBKT))
+&kp LG(GRAVE)     &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &none                &none    &none             &none         &none         &none
+                                          &none       &trans               &kp RET  &kp BSPC
             >;
         };
 
