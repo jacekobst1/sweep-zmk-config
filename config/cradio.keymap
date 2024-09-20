@@ -3,8 +3,9 @@
 
 #include <behaviors/mouse_keys.dtsi>
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 15
+&mmv { time-to-max-speed-ms = <700>; };
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
