@@ -94,7 +94,7 @@
             bindings = <
 &kp Q              &kp W             &kp E              &kp R               &kp T        &kp Y        &kp U               &kp I               &kp O              &kp P
 &hrm_left LCTRL A  &hrm_left LALT S  &hrm_left LMETA D  &hrm_left LSHIFT F  &kp G        &kp H        &hrm_right LSHFT J  &hrm_right LMETA K  &hrm_right LALT L  &hrm_right LCTRL SEMI
-&lt 4 Z            &kp X             &kp C              &kp V               &kp B        &kp N        &kp M               &kp COMMA           &kp DOT            &kp FSLH
+&lt 4 Z            &kp X             &kp C              &kp V               &kp B        &kp N        &kp M               &kp COMMA           &kp DOT            &lt 6 SLASH
                                                         &lt 1 SPACE         &lt 2 TAB    &lt 4 ENTER  &lt 3 BSPC
             >;
         };
@@ -126,7 +126,7 @@
             >;
         };
 
-        Mouse+Media {
+        LeftMouse+Media {
             bindings = <
 &none   &kp LG(LEFT_BRACKET)  &mmv MOVE_UP    &kp LG(RIGHT_BRACKET)  &msc SCRL_UP      &none             &none        &none         &none         &none
 &none   &mmv MOVE_LEFT        &mmv MOVE_DOWN  &mmv MOVE_RIGHT        &msc SCRL_DOWN    &kp C_MUTE        &kp LSHFT    &kp LGUI      &kp LALT      &kp LCTRL
@@ -141,6 +141,15 @@
 &kp F11  &kp F4  &kp F5  &kp F6  &none    &to 0         &kp LSHFT     &kp LGUI      &kp LALT    &kp LCTRL
 &kp F10  &kp F1  &kp F2  &kp F3  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL
                          &none   &none    &none         &none
+            >;
+        };
+
+        RightMouse {
+            bindings = <
+&none  &none  &none  &none  &none    &none      &kp LG(LEFT_BRACKET)  &mmv MOVE_UP    &kp LG(RIGHT_BRACKET)  &msc SCRL_UP
+&none  &none  &none  &none  &none    &none      &mmv MOVE_LEFT        &mmv MOVE_DOWN  &mmv MOVE_RIGHT        &msc SCRL_DOWN
+&none  &none  &none  &none  &none    &mkp MCLK  &none                 &none           &none                  &trans
+                     &none  &none    &mkp LCLK  &mkp RCLK
             >;
         };
     };
