@@ -12,7 +12,7 @@
 
 &lt { quick-tap-ms = <200>; };
 
-&mmv { time-to-max-speed-ms = <700>; };
+&mmv { time-to-max-speed-ms = <600>; };
 
 &sl {
     release-after-ms = <10000>;
