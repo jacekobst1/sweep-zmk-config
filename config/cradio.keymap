@@ -53,9 +53,9 @@
     };
 
     behaviors {
-        hrm_left: hrm_left {
+        hrml_ht: hrm_left_ht {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_LEFT";
+            label = "Home row mods left hold tap";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -68,9 +68,9 @@
             hold-while-undecided;
         };
 
-        hrm_right: hrm_right {
+        hrmr_ht: hrm_right_ht {
             compatible = "zmk,behavior-hold-tap";
-            label = "HRM_RIGHT";
+            label = "Home row mods right hold tap";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -83,9 +83,9 @@
             hold-while-undecided;
         };
 
-        app_nav_ht: app_nav_ht {
+        an_ht: appnav_ht {
             compatible = "zmk,behavior-hold-tap";
-            label = "APP_NAV_HT";
+            label = "AppNavigation hold tap";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -99,10 +99,10 @@
 
         Base {
             bindings = <
-&kp Q              &kp W             &kp E              &kp R               &kp T        &kp Y        &kp U               &kp I               &kp O              &kp P
-&hrm_left LCTRL A  &hrm_left LALT S  &hrm_left LMETA D  &hrm_left LSHIFT F  &kp G        &kp H        &hrm_right LSHFT J  &hrm_right LMETA K  &hrm_right LALT L  &hrm_right LCTRL SEMI
-&lt 4 Z            &kp X             &kp C              &kp V               &kp B        &kp N        &kp M               &kp COMMA           &kp DOT            &lt 6 SLASH
-                                                        &lt 1 SPACE         &lt 2 TAB    &lt 4 ENTER  &lt 3 BSPC
+&kp Q             &kp W            &kp E             &kp R              &kp T        &kp Y        &kp U             &kp I             &kp O            &kp P
+&hrml_ht LCTRL A  &hrml_ht LALT S  &hrml_ht LMETA D  &hrml_ht LSHIFT F  &kp G        &kp H        &hrmr_ht LSHFT J  &hrmr_ht LMETA K  &hrmr_ht LALT L  &hrmr_ht LCTRL SEMI
+&lt 4 Z           &kp X            &kp C             &kp V              &kp B        &kp N        &kp M             &kp COMMA         &kp DOT          &lt 6 SLASH
+                                                     &lt 1 SPACE        &lt 2 TAB    &lt 4 ENTER  &lt 3 BSPC
             >;
         };
 
@@ -117,10 +117,10 @@
 
         AppNavigation {
             bindings = <
-&kp LC(LS(LEFT))  &app_nav_ht LC(N7) LG(N7)              &app_nav_ht LC(N8) LG(N8)  &app_nav_ht LC(N9) LG(N9)  &kp LC(LS(RIGHT))    &none    &kp LG(LA(LEFT))  &none         &none         &kp LG(LA(RIGHT))
-&kp LC(LEFT)      &app_nav_ht LC(N4) LG(N4)              &app_nav_ht LC(N5) LG(N5)  &app_nav_ht LC(N6) LG(N6)  &kp LC(RIGHT)        &sl 5    &kp LG(LS(LBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &kp LG(LS(RBKT))
-&kp LG(GRAVE)     &app_nav_ht LC(NUMBER_1) LG(NUMBER_1)  &app_nav_ht LC(N2) LG(N2)  &app_nav_ht LC(N3) LG(N3)  &none                &none    &none             &none         &none         &none
-                                                                                    &bootloader                &trans               &kp RET  &kp BSPC
+&kp LC(LS(LEFT))  &an_ht LC(N7) LG(N7)              &an_ht LC(N8) LG(N8)  &an_ht LC(N9) LG(N9)  &kp LC(LS(RIGHT))    &none    &kp LG(LA(LEFT))  &none         &none         &kp LG(LA(RIGHT))
+&kp LC(LEFT)      &an_ht LC(N4) LG(N4)              &an_ht LC(N5) LG(N5)  &an_ht LC(N6) LG(N6)  &kp LC(RIGHT)        &sl 5    &kp LG(LS(LBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &kp LG(LS(RBKT))
+&kp LG(GRAVE)     &an_ht LC(NUMBER_1) LG(NUMBER_1)  &an_ht LC(N2) LG(N2)  &an_ht LC(N3) LG(N3)  &none                &none    &none             &none         &none         &none
+                                                                          &bootloader           &trans               &kp RET  &kp BSPC
             >;
         };
 
