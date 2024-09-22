@@ -34,11 +34,6 @@
             bindings = <&kp DEL>;
             key-positions = <26 27>;
         };
-
-        CapsLock {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <11 18>;
-        };
     };
 
     macros {
@@ -101,9 +96,9 @@
 
         Navigation {
             bindings = <
-&kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)   &kp LG(T)    &kp LG(LS(Z))  &kp K_PASTE    &kp K_COPY  &kp K_CUT  &kp K_UNDO
-&kp LCTRL  &kp LALT   &kp LMETA  &kp LSHIFT  &kp LG(G)    &caps_word     &kp LEFT       &kp DOWN    &kp UP     &kp RIGHT
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(B)    &kp INS        &kp LG(LEFT)   &kp PG_DN   &kp PG_UP  &kp LG(RIGHT)
+&kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)   &kp LG(T)    &kp LG(LS(Z))  &kp LG(V)      &kp LG(C)  &kp LG(X)  &kp LG(Z)
+&kp LCTRL  &kp LALT   &kp LMETA  &kp LSHIFT  &kp LG(G)    &caps_word     &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(B)    &kp CAPSLOCK   &kp LG(LEFT)   &kp PG_DN  &kp PG_UP  &kp LG(RIGHT)
                                  &trans      &none        &kp ENTER      &kp BACKSPACE
             >;
         };
@@ -137,7 +132,7 @@
 
         FunctionKeys {
             bindings = <
-&kp F12  &kp F7  &kp F8  &kp F9  &none    &none         &none         &none         &none       &none
+&kp F12  &kp F7  &kp F8  &kp F9  &none    &kp INS       &none         &none         &none       &none
 &kp F11  &kp F4  &kp F5  &kp F6  &none    &to 0         &kp LSHFT     &kp LGUI      &kp LALT    &kp LCTRL
 &kp F10  &kp F1  &kp F2  &kp F3  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL
                          &none   &none    &none         &none
