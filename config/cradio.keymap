@@ -119,7 +119,7 @@
             bindings = <
 &kp LC(LS(LEFT))  &an_ht LC(N7) LG(N7)              &an_ht LC(N8) LG(N8)  &an_ht LC(N9) LG(N9)  &kp LC(LS(RIGHT))    &none    &kp LG(LA(LEFT))  &none         &none         &kp LG(LA(RIGHT))
 &kp LC(LEFT)      &an_ht LC(N4) LG(N4)              &an_ht LC(N5) LG(N5)  &an_ht LC(N6) LG(N6)  &kp LC(RIGHT)        &sl 5    &kp LG(LS(LBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &kp LG(LS(RBKT))
-&kp LG(GRAVE)     &an_ht LC(NUMBER_1) LG(NUMBER_1)  &an_ht LC(N2) LG(N2)  &an_ht LC(N3) LG(N3)  &none                &none    &none             &none         &none         &none
+&kp LG(GRAVE)     &an_ht LC(NUMBER_1) LG(NUMBER_1)  &an_ht LC(N2) LG(N2)  &an_ht LC(N3) LG(N3)  &sk LSHIFT           &none    &none             &none         &none         &none
                                                                           &bootloader           &trans               &kp RET  &kp BSPC
             >;
         };
