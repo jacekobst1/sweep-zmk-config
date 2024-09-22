@@ -10,7 +10,7 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 15
 
-&lt { quick-tap-ms = <200>; };
+&lt { quick-tap-ms = <120>; };
 
 &mmv { time-to-max-speed-ms = <600>; };
 
@@ -60,7 +60,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <160>;
-            quick-tap-ms = <175>;
+            quick-tap-ms = <90>;
             require-prior-idle-ms = <80>;
             flavor = "balanced";
             hold-trigger-on-release;
@@ -74,7 +74,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <160>;
-            quick-tap-ms = <175>;
+            quick-tap-ms = <90>;
             require-prior-idle-ms = <80>;
             flavor = "balanced";
             hold-trigger-on-release;
