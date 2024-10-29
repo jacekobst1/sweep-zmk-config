@@ -34,6 +34,18 @@
             bindings = <&kp DEL>;
             key-positions = <26 27>;
         };
+
+        LeftMouse {
+            bindings = <&tog 4>;
+            key-positions = <2 3>;
+            layers = <0 4>;
+        };
+
+        RightMouse {
+            bindings = <&tog 6>;
+            key-positions = <7 6>;
+            layers = <0 6>;
+        };
     };
 
     macros {
@@ -101,7 +113,7 @@
             bindings = <
 &kp Q             &kp W            &kp E             &kp R              &kp T        &kp Y        &kp U             &kp I             &kp O            &kp P
 &hrml_ht LCTRL A  &hrml_ht LALT S  &hrml_ht LMETA D  &hrml_ht LSHIFT F  &kp G        &kp H        &hrmr_ht LSHFT J  &hrmr_ht LMETA K  &hrmr_ht LALT L  &hrmr_ht LCTRL SEMI
-&lt 4 Z           &kp X            &kp C             &kp V              &kp B        &kp N        &kp M             &kp COMMA         &kp DOT          &lt 6 SLASH
+&kp Z             &kp X            &kp C             &kp V              &kp B        &kp N        &kp M             &kp COMMA         &kp DOT          &lt 6 SLASH
                                                      &lt 1 SPACE        &lt 2 TAB    &lt 4 ENTER  &lt 3 BSPC
             >;
         };
