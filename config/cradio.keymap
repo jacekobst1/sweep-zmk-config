@@ -37,7 +37,7 @@
         LeftMouse {
             bindings = <&tog 4>;
             key-positions = <21 22>;
-            layers = <0 4>;
+            layers = <0 4 5>;
         };
 
         RightMouse {
@@ -49,6 +49,7 @@
         Layer5 {
             bindings = <&tog 5>;
             key-positions = <20 21>;
+            layers = <0 4 5>;
         };
     };
 
@@ -134,7 +135,7 @@
         AppNavigation {
             bindings = <
 &kp LS(LC(LEFT))  &an_ht LC(N7) LG(N7)              &an_ht LC(N8) LG(N8)  &an_ht LC(N9) LG(N9)  &kp LS(LC(RIGHT))    &none    &kp LA(LG(LEFT))  &none         &none         &kp LA(LG(RIGHT))
-&kp LC(LEFT)      &an_ht LC(N4) LG(N4)              &an_ht LC(N5) LG(N5)  &an_ht LC(N6) LG(N6)  &kp LC(RIGHT)        &none    &kp LS(LG(LBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &kp LS(LG(RBKT))
+&kp LC(LEFT)      &an_ht LC(N4) LG(N4)              &an_ht LC(N5) LG(N5)  &an_ht LC(N6) LG(N6)  &kp LC(RIGHT)        &sl 5    &kp LS(LG(LBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &kp LS(LG(RBKT))
 &kp LG(GRAVE)     &an_ht LC(NUMBER_1) LG(NUMBER_1)  &an_ht LC(N2) LG(N2)  &an_ht LC(N3) LG(N3)  &sk LSHIFT           &none    &none             &none         &none         &none
                                                                           &bootloader           &trans               &kp RET  &kp BSPC
             >;
