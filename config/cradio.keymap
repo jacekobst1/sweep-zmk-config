@@ -125,10 +125,10 @@
 
         Navigation {
             bindings = <
-&none      &none      &none      &none       &none        &kp INS       &none          &none      &none      &none
-&kp LCTRL  &kp LALT   &kp LMETA  &kp LSHIFT  &none        &caps_word    &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(B)    &kp CAPSLOCK  &none          &kp PG_DN  &kp PG_UP  &none
-                                 &trans      &none        &kp ENTER     &kp BACKSPACE
+&none      &none      &none      &none       &none        &none      &kp CAPSLOCK   &caps_word  &kp INS    &none
+&kp LCTRL  &kp LALT   &kp LMETA  &kp LSHIFT  &none        &none      &kp LEFT       &kp DOWN    &kp UP     &kp RIGHT
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(B)    &none      &none          &kp PG_DN   &kp PG_UP  &none
+                                 &trans      &none        &kp ENTER  &kp BACKSPACE
             >;
         };
 
