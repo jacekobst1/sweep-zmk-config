@@ -136,7 +136,7 @@
             bindings = <
 &none      &none      &none      &none       &none        &none      &kp CAPSLOCK   &caps_word  &kp INS    &none
 &kp LCTRL  &kp LALT   &kp LMETA  &kp LSHIFT  &none        &none      &kp LEFT       &kp DOWN    &kp UP     &kp RIGHT
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(B)    &none      &none          &kp PG_DN   &kp PG_UP  &none
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp LG(B)    &none      &kp LG(LEFT)   &kp PG_DN   &kp PG_UP  &kp LG(RIGHT)
                                  &trans      &none        &kp ENTER  &kp BACKSPACE
             >;
         };
