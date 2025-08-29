@@ -123,7 +123,7 @@
             >;
         };
 
-        Numbers {
+        Num {
             bindings = <
 &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT     &none  &ThickArrow  &none     &ThinArrow  &none
 &kp SQT    &kp N4  &kp N5  &kp N6  &kp EQUAL    &none  &kp LSHFT    &kp LGUI  &kp LALT    &kp LCTRL
@@ -132,7 +132,7 @@
             >;
         };
 
-        Navigation {
+        Nav {
             bindings = <
 &none      &none      &none      &none       &none        &none      &kp CAPSLOCK   &caps_word  &kp INS    &none
 &kp LCTRL  &kp LALT   &kp LMETA  &kp LSHIFT  &none        &none      &kp LEFT       &kp DOWN    &kp UP     &kp RIGHT
@@ -141,7 +141,7 @@
             >;
         };
 
-        LeftMouse+Media {
+        LMs+Med {
             bindings = <
 &none  &kp LG(LEFT_BRACKET)  &mmv MOVE_UP    &kp LG(RIGHT_BRACKET)  &msc SCRL_UP      &none             &none        &none         &none         &none
 &none  &mmv MOVE_LEFT        &mmv MOVE_DOWN  &mmv MOVE_RIGHT        &msc SCRL_DOWN    &kp C_MUTE        &kp LSHFT    &kp LGUI      &kp LALT      &kp LCTRL
@@ -150,7 +150,7 @@
             >;
         };
 
-        AppNavigation {
+        AppNav {
             bindings = <
 &none          &an_ht LC(N7) LG(N7)              &an_ht LC(N8) LG(N8)  &an_ht LC(N9) LG(N9)  &none         &none    &none             &none         &none         &none
 &none          &an_ht LC(N4) LG(N4)              &an_ht LC(N5) LG(N5)  &an_ht LC(N6) LG(N6)  &none         &none    &kp LS(LG(LBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &kp LS(LG(RBKT))
@@ -159,7 +159,7 @@
             >;
         };
 
-        FunctionKeys {
+        Fun {
             bindings = <
 &kp F12  &kp F7  &kp F8  &kp F9  &none    &none         &none         &none         &none       &none
 &kp F11  &kp F4  &kp F5  &kp F6  &none    &none         &kp LSHFT     &kp LGUI      &kp LALT    &kp LCTRL
@@ -168,7 +168,7 @@
             >;
         };
 
-        RightMouse {
+        RMs {
             bindings = <
 &none  &none  &none  &none  &none    &msc SCRL_UP    &kp LG(LEFT_BRACKET)  &mmv MOVE_UP    &kp LG(RIGHT_BRACKET)  &none
 &none  &none  &none  &none  &none    &msc SCRL_DOWN  &mmv MOVE_LEFT        &mmv MOVE_DOWN  &mmv MOVE_RIGHT        &none
