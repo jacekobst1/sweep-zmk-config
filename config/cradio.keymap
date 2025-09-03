@@ -77,7 +77,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N1>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD1";
@@ -92,7 +91,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N2>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD2";
@@ -107,7 +105,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N3>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD3";
@@ -122,7 +119,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N4>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD4";
@@ -137,7 +133,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N5>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD5";
@@ -152,7 +147,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N6>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD6";
@@ -167,7 +161,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N7>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD7";
@@ -182,7 +175,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N8>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD8";
@@ -197,7 +189,6 @@
                  <&macro_press &kp LGUI>,
                  <&macro_wait_time 30>,
                  <&macro_tap &kp N9>,
-                 <&macro_wait_time 10>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD9";
