@@ -71,11 +71,10 @@
         Cmd1: Cmd1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N1>,
                  <&macro_release &kp LGUI>;
 
@@ -85,11 +84,10 @@
         Cmd2: Cmd2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N2>,
                  <&macro_release &kp LGUI>;
 
@@ -99,11 +97,10 @@
         Cmd3: Cmd3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N3>,
                  <&macro_release &kp LGUI>;
 
@@ -113,11 +110,10 @@
         Cmd4: Cmd4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N4>,
                  <&macro_release &kp LGUI>;
 
@@ -127,11 +123,10 @@
         Cmd5: Cmd5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N5>,
                  <&macro_release &kp LGUI>;
 
@@ -141,11 +136,10 @@
         Cmd6: Cmd6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N6>,
                  <&macro_release &kp LGUI>;
 
@@ -155,11 +149,10 @@
         Cmd7: Cmd7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N7>,
                  <&macro_release &kp LGUI>;
 
@@ -169,11 +162,10 @@
         Cmd8: Cmd8 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N8>,
                  <&macro_release &kp LGUI>;
 
@@ -183,11 +175,10 @@
         Cmd9: Cmd9 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
+            wait-ms = <30>;
+            tap-ms = <20>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_wait_time 30>,
                  <&macro_tap &kp N9>,
                  <&macro_release &kp LGUI>;
 
