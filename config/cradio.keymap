@@ -74,6 +74,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N1>,
                  <&macro_release &kp N1>,
                  <&macro_release &kp LGUI>;
@@ -87,6 +88,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N2>,
                  <&macro_release &kp N2>,
                  <&macro_release &kp LGUI>;
@@ -100,6 +102,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N3>,
                  <&macro_release &kp N3>,
                  <&macro_release &kp LGUI>;
@@ -113,6 +116,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N4>,
                  <&macro_release &kp N4>,
                  <&macro_release &kp LGUI>;
@@ -126,6 +130,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N5>,
                  <&macro_release &kp N5>,
                  <&macro_release &kp LGUI>;
@@ -139,6 +144,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N6>,
                  <&macro_release &kp N6>,
                  <&macro_release &kp LGUI>;
@@ -152,6 +158,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N7>,
                  <&macro_release &kp N7>,
                  <&macro_release &kp LGUI>;
@@ -165,6 +172,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N8>,
                  <&macro_release &kp N8>,
                  <&macro_release &kp LGUI>;
@@ -178,6 +186,7 @@
              bindings =
                  <&macro_press &kp LGUI>,
                  <&macro_pause_for_release>,
+                 <&macro_wait_time 1>,
                  <&macro_press &kp N9>,
                  <&macro_release &kp N9>,
                  <&macro_release &kp LGUI>;
