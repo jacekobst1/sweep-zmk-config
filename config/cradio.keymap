@@ -73,10 +73,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N1>,
-                 <&macro_release &kp N1>,
+                 <&macro_tap &kp N1>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD1";
@@ -87,10 +84,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N2>,
-                 <&macro_release &kp N2>,
+                 <&macro_tap &kp N2>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD2";
@@ -101,10 +95,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N3>,
-                 <&macro_release &kp N3>,
+                 <&macro_tap &kp N3>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD3";
@@ -115,10 +106,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N4>,
-                 <&macro_release &kp N4>,
+                 <&macro_tap &kp N4>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD4";
@@ -129,10 +117,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N5>,
-                 <&macro_release &kp N5>,
+                 <&macro_tap &kp N5>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD5";
@@ -143,10 +128,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N6>,
-                 <&macro_release &kp N6>,
+                 <&macro_tap &kp N6>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD6";
@@ -157,10 +139,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N7>,
-                 <&macro_release &kp N7>,
+                 <&macro_tap &kp N7>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD7";
@@ -171,10 +150,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N8>,
-                 <&macro_release &kp N8>,
+                 <&macro_tap &kp N8>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD8";
@@ -185,10 +161,7 @@
             #binding-cells = <0>;
              bindings =
                  <&macro_press &kp LGUI>,
-                 <&macro_pause_for_release>,
-                 <&macro_wait_time 1>,
-                 <&macro_press &kp N9>,
-                 <&macro_release &kp N9>,
+                 <&macro_tap &kp N9>,
                  <&macro_release &kp LGUI>;
 
             label = "CMD9";
